@@ -1,6 +1,7 @@
 module willnorris.com/go/imageproxy
 
 go 1.21
+toolchain go1.24.1
 
 require (
 	cloud.google.com/go/storage v1.40.0
@@ -15,7 +16,7 @@ require (
 	github.com/peterbourgon/diskv v0.0.0-20171120014656-2973218375c3
 	github.com/prometheus/client_golang v1.19.0
 	github.com/rwcarlsen/goexif v0.0.0-20190401172101-9e8deecbddbd
-	golang.org/x/image v0.16.0
+	golang.org/x/image v0.18.0
 	willnorris.com/go/gifresize v1.0.0
 )
 
@@ -40,7 +41,7 @@ require (
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/gofrs/uuid v4.4.0+incompatible // indirect
-	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.1.2 // indirect
@@ -60,12 +61,12 @@ require (
 	go.opentelemetry.io/otel v1.26.0 // indirect
 	go.opentelemetry.io/otel/metric v1.26.0 // indirect
 	go.opentelemetry.io/otel/trace v1.26.0 // indirect
-	golang.org/x/crypto v0.23.0 // indirect
-	golang.org/x/net v0.25.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
 	golang.org/x/oauth2 v0.20.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/api v0.178.0 // indirect
 	google.golang.org/genproto v0.0.0-20240506185236-b8a5c65736ae // indirect
